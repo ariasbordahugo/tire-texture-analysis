@@ -1,0 +1,15 @@
+# Ignorar datasets locales
+data/
+dataset_bruto/
+Tire Textures/
+
+# Ignorar pesos del modelo y checkpoints pesados
+*.pth
+models/
+checkpoints/
+
+# Archivos del sistema e IDES
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
